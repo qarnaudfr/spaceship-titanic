@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-
+#ajout commmentaire
 def reformat_dataframe_dtypes(df, col_dtypes):
     new_df = pd.DataFrame()
     for col in col_dtypes:
